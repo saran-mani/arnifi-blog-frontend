@@ -21,3 +21,13 @@ cd arnifi-blog-frontend
 npm install
 npm run dev
 ```
+## 🔧 Environment Variables
+
+Create a .env file in the root directory:
+
+```bash
+PORT=3000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRE_IN=7d
+```
